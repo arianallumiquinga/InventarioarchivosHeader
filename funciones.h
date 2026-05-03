@@ -1,0 +1,10 @@
+int menu();
+int registrarproducto(char productos[10][20],float precio[10],int stock [10],int cont);
+void verInventario(char productos[10][20],float precio[10],int stock [10],int cont);
+void leercadena(char cadena[],int n);
+int validarEnteroconRango(int a ,int b);
+float validarfloatonrango(int a ,int b);
+void ProductoMasCaro (char productos[10][20],float precio[10],int cont);
+void ProductoMasBarato (char productos[10][20],float precio[10],int cont);
+int Encontrarproduc(char productos[10][20],int cont,char buscar[]);
+void buscarproduct(char productos[10][20],float precio[10],int stock [10],int cont);
